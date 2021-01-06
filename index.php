@@ -1,6 +1,4 @@
 <?php
-//require ('register.php');
-//require ('auth.php');
 ?>
 <!DOCTYPE HTML>
 

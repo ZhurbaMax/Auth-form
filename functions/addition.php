@@ -43,15 +43,4 @@ function checkRegistrationForm($checkEmail,$checkPassword,$checkLogin,$checkCoun
             $checkErrors[] = '* you have exceeded the limit of 100 characters';
         }
     return $checkErrors;
-        /*
-        if (empty($checkErrors)){
-            $email = $checkEmail;
-            $password = sha1($checkPassword.SALT);
-            $login = $checkLogin;
-            $country = $checkCountry;
-            $city = $checkCity;
-            additionUser($email,$password,$login,$country,$city,$checkDbConn);
-            header('Location: /auth.php');
-        }
-        */
 }
